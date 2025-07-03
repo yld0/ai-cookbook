@@ -90,7 +90,7 @@ flowchart LR
         Client2["MCP Client"]
         Server2["MCP Server"]
   end
- subgraph StreamableHTTP["Streamable HTTP Transport (NEW)"]
+ subgraph StreamableHTTP["Streamable HTTP Transport"]
         Client3["MCP Client"]
         Server3["MCP Server"]
   end
