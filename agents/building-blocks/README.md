@@ -8,7 +8,15 @@ Most successful AI applications I've seen are built with custom building blocks,
 
 The problem is that most frameworks push the "give an LLM some tools and let it figure everything out" approach. But in reality, you don't want your LLM making every decision. You want it handling the one thing it's good at - reasoning with context - while your code handles everything else.
 
-**The solution is simpler than most frameworks make it seem.** Break down what you're actually building into fundamental components. You'll discover that only one of them needs an LLM, and the rest is just solid software engineering.
+**The solution is simpler than most frameworks make it seem.** Here's the approach that actually works:
+
+- Break down what you're actually building into fundamental components
+- Solve each problem with proper software engineering best practices  
+- **ONLY INCLUDE AN LLM STEP** when it's impossible to solve with deterministic code
+
+Making an LLM API call is the most expensive and most dangerous operation in modern software development. While incredibly powerful, you want to avoid it at all costs and only use it when absolutely necessary. 
+
+AI agents are simply workflows - directed acyclic graphs (DAGs) if you're being precise, or just graphs if you include loops. Most steps in these workflows should be regular code.
 
 ## The 7 Building Blocks
 
