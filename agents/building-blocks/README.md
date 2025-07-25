@@ -22,6 +22,10 @@ AI agents are simply workflows - directed acyclic graphs (DAGs) if you're being 
 
 ## The 7 Building Blocks
 
+Given all of this, you only need these seven core building blocks to solve almost any business problem. Take your big problem, break it down into smaller problems, then solve each one using these building blocks chained together - that's how you build effective AI agents.
+
+These are the fundamental primitives. But how do you actually combine them? That's where [workflow orchestration](https://github.com/daveebbelaar/ai-cookbook/tree/main/patterns/workflows) comes in - prompt chaining, routing, reflection, and other agentic patterns that emerge when you combine these building blocks strategically.
+
 ### 1. Intelligence
 **The only truly "AI" component**
 
