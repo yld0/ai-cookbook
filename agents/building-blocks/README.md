@@ -52,11 +52,13 @@ graph LR
 ### 4. Validation
 **Quality assurance and structured data enforcement**
 
-LLMs can return garbage or unexpected formats. **LLMs are probabilistic and can produce inconsistent outputs**, so you need to validate what goes in and what comes out. Parse inputs into the right structure, validate outputs match what you expect. This is just *normal input/output validation* that you'd do in any app (Data Classes, Pydantic, Zod).
+You need to make sure the LLM returns JSON that matches your expected schema. **LLMs are probabilistic and can produce inconsistent outputs**, so you validate the JSON output against a predefined structure. If validation fails, you can send it back to the LLM to fix it. This ensures downstream code can reliably work with the data. This is just *normal schema validation* with retry logic using tools like Pydantic, Zod, or data classes.
 
 ```mermaid
 graph LR
-    A[Raw Input] --> B[Parse to Structure] --> C[LLM Processing] --> D[Parse Output] --> E[Structured Output]
+    A[LLM JSON Output] --> B[Validate Schema] --> C{Valid?}
+    C -->|Yes| D[Structured Data]
+    C -->|No| E[Send Back to LLM] --> A
 ```
 
 ### 5. Control
