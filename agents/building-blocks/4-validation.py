@@ -1,6 +1,6 @@
 """
-Validation: Ensures inputs and outputs meet business requirements.
-This component provides format checking, business rule validation, and structured data parsing for quality assurance.
+Validation: Ensures LLM outputs match predefined data schemas.
+This component provides schema validation and structured data parsing to guarantee consistent data formats for downstream code.
 
 More info: https://platform.openai.com/docs/guides/structured-outputs?api-mode=responses
 """

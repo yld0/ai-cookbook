@@ -1,6 +1,6 @@
 # The 7 Foundational Building Blocks of AI Agents
 
-## The Problem: Frameworks vs. Reality
+## The Problem: Overly Abstracted Frameworks
 
 Here's what I've observed after trying countless agent frameworks and talking to developers building real AI products: **the frameworks aren't being used in production**.
 
