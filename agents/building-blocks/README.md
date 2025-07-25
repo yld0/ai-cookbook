@@ -1,6 +1,6 @@
 # The 7 Foundational Building Blocks of AI Agents
 
-## The Problem: Overly Abstracted Frameworks
+## What I Learned Building Real AI Applications
 
 Here's what I've observed after trying countless agent frameworks and talking to developers building real AI products: **the frameworks aren't being used in production**.
 
@@ -16,7 +16,9 @@ The problem is that most frameworks push the "give an LLM some tools and let it 
 
 Making an LLM API call is the most expensive and most dangerous operation in modern software development. While incredibly powerful, you want to avoid it at all costs and only use it when absolutely necessary. 
 
-AI agents are simply workflows - directed acyclic graphs (DAGs) if you're being precise, or just graphs if you include loops. Most steps in these workflows should be regular code.
+**But when you do make that LLM call, it's all about context engineering.** To get a good answer back, you need the right context at the right time sent to the right model. You need to pre-process all available information, prompts, and user input so the LLM can easily and reliably solve the problem. This is the most fundamental skill in working with LLMs.
+
+AI agents are simply workflows - directed acyclic graphs (DAGs) if you're being precise, or just graphs if you include loops. Most steps in these workflows should be regular code - not LLM calls.
 
 ## The 7 Building Blocks
 
