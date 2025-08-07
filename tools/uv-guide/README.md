@@ -13,6 +13,10 @@ UV is a Rust-based "Cargo for Python" that replaces pip, pip-tools, pipx, poetry
 
 But beyond all that, it makes working with Python much more enjoyable. I've been working with Python for over 10 years, and setting up a new project, managing dependencies, and getting everything to work has always been one of my least favorite parts of this programming language. UV solves all of that. This guide will cover the basics that everyone needs to know. You can find the [official documentation here](https://docs.astral.sh/uv/getting-started/) to learn more about specific use cases.
 
+## About Astral and Ruff
+
+UV comes from [Astral](https://astral.sh/), the same team behind [Ruff](https://docs.astral.sh/ruff/) - the extremely fast Python linter and formatter that I highly recommend to everyone. Like UV, Ruff is written in Rust and delivers massive performance improvements (100x faster than flake8). If you're not using Ruff yet, you should be - it replaces flake8, isort, black, and more with a single blazingly fast tool.
+
 ## Most common real-world workflows
 
 ## Starting a new Python project
