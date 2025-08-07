@@ -119,6 +119,7 @@ Most common UV commands:
 # Project setup
 uv init myproject           # Create new project
 uv add requests             # Add dependency
+uv remove requests             # Remove dependency
 uv sync                     # Install from lockfile
 
 # Running code
