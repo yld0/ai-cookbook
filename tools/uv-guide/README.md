@@ -11,7 +11,7 @@ UV is a Rust-based "Cargo for Python" that replaces pip, pip-tools, pipx, poetry
 - **Modern**: Built-in Python version management and dependency groups
 - **Compatible**: Works with existing pip/poetry workflows
 
-But beyond all that, it makes working with Python much more enjoyable. I've been working with Python for over 10 years, and setting up a new project, managing dependencies, and getting everything to work has always been one of my least favorite parts of this programming language. UV solves all of that.
+But beyond all that, it makes working with Python much more enjoyable. I've been working with Python for over 10 years, and setting up a new project, managing dependencies, and getting everything to work has always been one of my least favorite parts of this programming language. UV solves all of that. This guide will cover the basics that everyone needs to know. You can find the official documentation [here](https://docs.astral.sh/uv/getting-started/) to learn more about specific use cases.
 
 ## Most common real-world workflows
 
