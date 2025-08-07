@@ -11,6 +11,7 @@ UV is a Rust-based "Cargo for Python" that replaces pip, pip-tools, pipx, poetry
 - **Modern**: Built-in Python version management and dependency groups
 - **Compatible**: Works with existing pip/poetry workflows
 
+But beyond all that, it makes working with Python much more enjoyable. I've been working with Python for over 10 years, and setting up a new project, managing dependencies, and getting everything to work has always been one of my least favorite parts of this programming language. UV solves all of that.
 
 ## Most common real-world workflows
 
@@ -106,40 +107,6 @@ uv sync                          # Install everything
 uv sync --no-dev                 # Production only
 ```
 
-## pyproject.toml vs requirements.txt
-
-UV uses `pyproject.toml` (Python standard) instead of `requirements.txt`:
-
-**Old way (pip + requirements.txt):**
-```txt
-# requirements.txt
-requests==2.31.0
-fastapi==0.104.1
-
-# requirements-dev.txt  
-pytest==7.4.3
-black==23.9.1
-```
-
-**New way (UV + pyproject.toml):**
-```toml
-[project]
-dependencies = [
-    "requests>=2.31.0",
-    "fastapi>=0.104.0",
-]
-
-[dependency-groups]
-dev = ["pytest>=7.4.0", "black>=23.0.0"]
-```
-
-**Key differences:**
-- **Single file**: All dependencies in one place vs multiple requirements files
-- **Version ranges**: `>=2.31.0` instead of pinned `==2.31.0` versions
-- **Dependency groups**: Built-in dev/test/lint groups vs separate files
-- **Metadata**: Project name, description, authors all in one file
-- **Lock file**: `uv.lock` contains exact versions for reproducible installs
-
 ## Essential commands
 
 Most common UV commands:
@@ -165,4 +132,23 @@ uv tool install ruff       # Install tool globally
 # Package management (pip-compatible)
 uv pip install requests  # Direct pip replacement
 uv pip sync requirements.txt
+```
+
+## New project flow
+
+```bash
+uv init my-project
+cd my-project
+cursor .
+
+uv add openai python-dotenv fastapi
+uv add --dev ipykernel
+echo "API_KEY=your-key" > .env
+
+git init
+git add .
+git commit -m "Initial commit"
+
+# Create new repo with GitHub CLI
+gh repo create my-project --private --source=. --remote=origin --push
 ```
