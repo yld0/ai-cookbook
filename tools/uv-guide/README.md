@@ -136,7 +136,7 @@ uv tool install ruff       # Install tool globally
 
 # Package management (pip-compatible)
 uv pip install requests  # Direct pip replacement
-uv pip sync requirements.txt
+uv pip install -r requirements.txt
 ```
 
 ## New project flow
