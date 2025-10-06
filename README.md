@@ -8,7 +8,7 @@ Hi! I'm Dave, AI Engineer and founder of Datalumina®. On my [YouTube channel](h
 
 ### Explore More Resources
 
-Whether you're a learner, a freelancer, or a business looking for AI expertise, we've got something for you:
+Continue learning – wherever you are in your AI journey.  
 
 1. 🧠 **Getting Started with AI & Python**     
    Dive into foundational content to build your technical base  
