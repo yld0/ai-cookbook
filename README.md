@@ -18,6 +18,6 @@ Whether you're a learner, a freelancer, or a business looking for AI expertise, 
    Learn full-stack GenAI engineering, from basics to deployment  
    ▶︎ [Join the GenAI Accelerator](https://go.datalumina.com/CkIsMAK)
 
-3. 💰 **Launch or grow your freelance AI business**     
+3. 💸 **Launch or grow your freelance AI business**     
    Learn how to land clients, structure work, and scale  
    ▶︎ [Find Freelance Projects](https://go.datalumina.com/MVWhVn9)
