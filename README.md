@@ -10,14 +10,14 @@ Hi! I'm Dave, AI Engineer and founder of Datalumina®. On my [YouTube channel](h
 
 Whether you're a learner, a freelancer, or a business looking for AI expertise, we've got something for you:
 
-1. **Getting Started with AI & Python**  
+1. 🧠 **Getting Started with AI & Python**     
    Dive into foundational content to build your technical base  
    ▶︎ [Learn Python for AI](https://go.datalumina.com/XRPBiLb)
 
-2. **Learn production-ready AI engieering**  
+2. 🛠️ **Learn production-ready AI engieering**   
    Learn full-stack GenAI engineering, from basics to deployment  
-   ▶︎ [Work with me](https://go.datalumina.com/CkIsMAK)
+   ▶︎ [Join the GenAI Accelerator](https://go.datalumina.com/CkIsMAK)
 
-3. **Launch or grow your freelance AI business**  
+3. 💰 **Launch or grow your freelance AI business**     
    Learn how to land clients, structure work, and scale  
-   ▶︎ [Find freelance projects](https://go.datalumina.com/MVWhVn9)
+   ▶︎ [Find Freelance Projects](https://go.datalumina.com/MVWhVn9)
