@@ -15,9 +15,9 @@ Continue learning – wherever you are in your AI journey.
    ▶︎ [Learn Python for AI](https://go.datalumina.com/XRPBiLb)
 
 2. 🛠️ **Learn production-ready AI engieering**   
-   Learn full-stack GenAI engineering, from basics to deployment  
+   Learn the full GenAI stack, from basics to deployment  
    ▶︎ [Join the GenAI Accelerator](https://go.datalumina.com/CkIsMAK)
 
 3. 💸 **Launch or grow your freelance AI business**     
-   Learn how to land clients, structure work, and scale  
+   Discover how to land clients, structure work, and scale  
    ▶︎ [Find Freelance Projects](https://go.datalumina.com/MVWhVn9)
