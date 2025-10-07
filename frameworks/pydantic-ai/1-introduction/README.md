@@ -1,10 +1,6 @@
-# Introduction to the Crash Course
+# Introduction
 
-This crash course is designed to help you understand and apply **Pydantic AI** — the agent framework built by the creators of Pydantic. We will start from the fundamentals, explore its unique model-driven approach, and then move into more advanced topics like the Model Context Protocol (MCP), multi-agent orchestration, and production monitoring. By the end, you will understand not just *how* to use it, but *when* and *why* to use it in your own AI applications.
-
-The course assumes you already have some experience building with large language models and want a more robust foundation for production systems. Instead of chasing the latest abstractions, we will focus on the principles that make AI software reliable, debuggable, and type-safe — the same values that made FastAPI and Pydantic so influential in modern Python development.
-
----
+If you have shipped real LLM features before, you have probably wrestled with brittle JSON, unclear tool boundaries, and poor visibility into what the model actually did. Pydantic AI approaches these problems with the same philosophy that made Pydantic and FastAPI so useful in production: strong types, minimal magic, clear interfaces, and first class observability.
 
 ## What is Pydantic AI
 

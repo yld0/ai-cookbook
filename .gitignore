@@ -103,3 +103,6 @@ temp/
 
 # Exclude Qdrant data
 qdrant_data/
+
+# Exclude video files
+*.mp4
