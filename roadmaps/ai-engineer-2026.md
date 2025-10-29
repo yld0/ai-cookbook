@@ -10,15 +10,12 @@ The term [AI Engineer](https://www.latent.space/p/ai-engineer) has evolved. Nowa
 
 > A software engineer who builds production-ready systems using pre-trained AI models and APIs.
 
-They integrate models form companies like OpenAI or Anthropic into real products — chatbots, document processors, assistants, and automation systems.  
-They work on the right side of the API layer. On the left side, you’ll find Machine Learning Engineers and Data Scientists who train and optimize models.
+They integrate models form companies like OpenAI or Anthropic into real products — chatbots, document processors, assistants, and automation systems. They work on the [right side](https://www.latent.space/p/ai-engineer) of the API layer. On the left side, you’ll find Machine Learning Engineers and Data Scientists who train and optimize models.
 
-> "Most people still consider AI Engineering as a form of either Machine Learning or Data Engineering, so they recommend the same prerequisites. But I guarantee you that none of the highly effective AI Engineers I named above have done the equivalent work of the Andrew Ng Coursera courses, nor do they know PyTorch, nor do they know the difference between a Data Lake or Data Warehouse." 
-> — The Rise of the AI Engineer, Latent Space
+*"Most people still consider AI Engineering as a form of either Machine Learning or Data Engineering, so they recommend the same prerequisites. But I guarantee you that none of the highly effective AI Engineers I named above have done the equivalent work of the Andrew Ng Coursera courses, nor do they know PyTorch, nor do they know the difference between a Data Lake or Data Warehouse."* — The Rise of the AI Engineer, Latent Space
 
-While you can technically do AI engineering in almost any programming language, Python completely dominates the field.  
-Every major LLM SDK, framework, and production stack in AI is built around Python.  
-If you are serious about becoming an AI Engineer, learning Python is a must.
+While you can technically do AI engineering in almost any programming language, Python completely dominates the field. Every major LLM SDK, framework, and production stack in AI is built around Python.  
+If you are serious about becoming an AI Engineer, learning Python is a *must* in my opinion.
 
 ## 1. AI Engineering Foundations
 
@@ -125,4 +122,4 @@ You’ll have everything you need to land your first AI Engineer role in 2026.
 
 Focus on building, not theorizing. Ship small, iterate fast, document everything, and showcase at least three complete projects that prove you can build and deploy real AI systems.
 
-Everything I’ve covered here you can absolutely learn on your own but if you want the shortcuts, templates, and full roadmap done for you, you’ll find it all inside the [GenAI Accelerator](https://academy.datalumina.com/accelerator).
+Everything I’ve covered here you can absolutely learn on your own but if you want the shortcuts, templates, and full roadmap done for you, you’ll find it all inside the [GenAI Accelerator](https://go.datalumina.com/nVjixnJ).
