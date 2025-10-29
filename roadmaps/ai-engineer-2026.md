@@ -6,6 +6,8 @@ The focus here is applied AI, which means building and deploying systems that us
 
 ## Introduction
 
+I have been working in the field of AI for over ten years. I started in 2013, completed both my bachelor’s and master’s degrees in artificial intelligence, and spent four years working as a data scientist. For the past three years, I’ve gone all-in on Generative AI, running my own AI development company where we’ve completed over 50 full client builds. Everything in this roadmap comes directly from that real-world experience.
+
 The term [AI Engineer](https://www.latent.space/p/ai-engineer) has evolved. Nowadays, an AI Engineer typically means:
 
 > A software engineer who builds production-ready systems using pre-trained AI models and APIs.
