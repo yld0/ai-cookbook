@@ -12,7 +12,7 @@ Continue learning – wherever you are in your AI journey.
 
 1. 🧠 **Getting Started with AI & Python**     
    Dive into foundational content to build your technical base  
-   ▶︎ [Learn Python for AI](https://go.datalumina.com/XRPBiLb)
+   ▶︎ [Learn Python for AI](https://youtu.be/ygXn5nV5qFc)
 
 2. 🛠️ **Learn production-ready AI engineering**   
    Learn the full GenAI stack, from basics to deployment  
