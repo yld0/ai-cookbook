@@ -14,7 +14,7 @@ Continue learning – wherever you are in your AI journey.
    Dive into foundational content to build your technical base  
    ▶︎ [Learn Python for AI](https://go.datalumina.com/XRPBiLb)
 
-2. 🛠️ **Learn production-ready AI engieering**   
+2. 🛠️ **Learn production-ready AI engineering**   
    Learn the full GenAI stack, from basics to deployment  
    ▶︎ [Join the GenAI Accelerator](https://go.datalumina.com/CkIsMAK)
 
