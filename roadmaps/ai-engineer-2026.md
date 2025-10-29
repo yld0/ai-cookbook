@@ -4,9 +4,11 @@ This is the roadmap I would personally follow if I wanted to become an AI Engine
 
 The focus here is applied AI, which means building and deploying systems that use pre-trained LLMs, not training or fine-tuning models from scratch.
 
-## Introduction
+## About Me
 
-I have been working in the field of AI for over ten years. I started in 2013, completed both my bachelor’s and master’s degrees in artificial intelligence, and spent four years working as a data scientist. For the past three years, I’ve gone all-in on Generative AI, running my own AI development company where we’ve completed over 50 full client builds. Everything in this roadmap comes directly from that real-world experience.
+I have been working in the field of AI 10+ years. I started in 2013, completed both my bachelor’s and master’s degrees in artificial intelligence, and spent four years working as a data scientist. For the past three years, I’ve gone all-in on Generative AI, running my own [AI development company](https://www.datalumina.com/) where we’ve completed over 50 full client builds. Everything in this roadmap comes directly from that real-world experience.
+
+## Introduction
 
 The term [AI Engineer](https://www.latent.space/p/ai-engineer) has evolved. Nowadays, an AI Engineer typically means:
 
@@ -14,10 +16,7 @@ The term [AI Engineer](https://www.latent.space/p/ai-engineer) has evolved. Nowa
 
 They integrate models form companies like OpenAI or Anthropic into real products — chatbots, document processors, assistants, and automation systems. They work on the [right side](https://www.latent.space/p/ai-engineer) of the API layer. On the left side, you’ll find Machine Learning Engineers and Data Scientists who train and optimize models.
 
-*"Most people still consider AI Engineering as a form of either Machine Learning or Data Engineering, so they recommend the same prerequisites. But I guarantee you that none of the highly effective AI Engineers I named above have done the equivalent work of the Andrew Ng Coursera courses, nor do they know PyTorch, nor do they know the difference between a Data Lake or Data Warehouse."* — The Rise of the AI Engineer, Latent Space
-
-While you can technically do AI engineering in almost any programming language, Python completely dominates the field. Every major LLM SDK, framework, and production stack in AI is built around Python.  
-If you are serious about becoming an AI Engineer, learning Python is a *must* in my opinion.
+While you can technically do AI engineering in almost any programming language, Python completely dominates the field. Every major LLM SDK, framework, and production stack in AI is built around Python. If you are serious about becoming an AI Engineer, learning Python is a *must* in my opinion.
 
 ## 1. AI Engineering Foundations
 
