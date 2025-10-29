@@ -22,7 +22,7 @@ print("Video generation started:", video)
 # List all videos
 # --------------------------------------------------------------
 
-time.sleep(3)
+time.sleep(5)
 videos_list = openai.videos.list().data
 
 # --------------------------------------------------------------
