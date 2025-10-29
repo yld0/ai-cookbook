@@ -18,7 +18,7 @@ They integrate models form companies like OpenAI or Anthropic into real products
 
 While you can technically do AI engineering in almost any programming language, Python completely dominates the field. Every major LLM SDK, framework, and production stack in AI is built around Python. If you are serious about becoming an AI Engineer, learning Python is a *must* in my opinion.
 
-## 1. AI Engineering Foundations
+## Step 1: Learn the Foundations of AI Engineering
 
 Build your base as a software engineer who can write clean, maintainable Python code.
 
@@ -34,7 +34,7 @@ Build your base as a software engineer who can write clean, maintainable Python 
 
 **Goal**: you can build and run small Python projects locally with clean code and structure.
 
-## 2. AI System Design Principles
+## Step 2: Design AI Systems That Actually Work
 
 Understand how to think about and design AI systems before writing code.
 
@@ -50,7 +50,7 @@ Understand how to think about and design AI systems before writing code.
 
 **Goal**: you can design an AI system end-to-end and explain each step clearly.
 
-## 3. AI Architecture and Containerization
+## Step 3: Build Production-Ready AI Backends
 
 Turn your local prototypes into scalable backend services.
 
@@ -65,7 +65,7 @@ Turn your local prototypes into scalable backend services.
 
 **Goal**: you can run a small backend locally or in Docker that connects to a database and exposes clean API routes.
 
-## 4. Retrieval-Augmented Generation (RAG)
+## Step 4: Connect AI to Your Data with RAG
 
 Teach your AI systems to access and use external information.
 
@@ -79,7 +79,7 @@ Teach your AI systems to access and use external information.
 
 **Goal**: you can connect your AI system to custom data sources and retrieve relevant context at runtime.
 
-## 5. LLM Monitoring and Evals
+## Step 5: Monitor and Optimize Your AI Systems
 
 Measure quality, cost, and reliability of your AI systems.
 
@@ -95,7 +95,7 @@ Measure quality, cost, and reliability of your AI systems.
 
 **Goal**: you can quantify performance, catch regressions early, and continuously improve your AI applications.
 
-## 6. Deploying Your AI Applications
+## Step 6: Ship AI Applications to Production
 
 Get your systems online, stable, and maintainable.
 
