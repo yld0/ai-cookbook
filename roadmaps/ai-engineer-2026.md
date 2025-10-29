@@ -2,11 +2,11 @@
 
 This is the roadmap I would personally follow if I wanted to become an AI Engineer and get hired fast in 2026.
 
-The focus here is applied AI, which means building and deploying systems that use pre-trained LLMs, not training or fine-tuning models from scratch.
+The focus here is applied AI, which means building and deploying systems that use pre-trained AI models, not training or fine-tuning models from scratch.
 
 ## About Me
 
-I have been working in the field of AI 10+ years. I started in 2013, completed both my bachelor’s and master’s degrees in artificial intelligence, and spent four years working as a data scientist. For the past three years, I’ve gone all-in on Generative AI, running my own [AI development company](https://www.datalumina.com/) where we’ve completed over 50 full client builds. Everything in this roadmap comes directly from that real-world experience.
+I have been working in the field of AI 10+ years. I started in 2013, completed both my bachelor’s and master’s degrees in artificial intelligence, and spent four years working as a data scientist. For the past three years, I’ve gone all-in on GenAI, running my own [AI development company](https://www.datalumina.com/) where we’ve completed over 50 full client builds. Everything in this roadmap comes directly from that real-world experience.
 
 ## Introduction
 
@@ -28,7 +28,9 @@ Build your base as a software engineer who can write clean, maintainable Python 
 - Practice version control with Git and GitHub (clone, branch, commit, merge, PR).  
 - Understand project structure in Python (modules, imports, `__init__.py`).  
 - Learn basic testing, debugging, and logging.  
-- Understand how to configure environment variables with `.env` files.  
+- Understand how to configure environment variables with `.env` files.
+- Go through the entire [OpenAI API](https://youtu.be/0pGxoubWI6s) documentation and Python SDK. Learn how to authenticate, send requests, handle responses, and work with structured outputs. 
+- Understand the fundamental concepts and techniques around prompt engineering
 
 **Goal**: you can build and run small Python projects locally with clean code and structure.
 
@@ -38,7 +40,6 @@ Understand how to think about and design AI systems before writing code.
 
 - Learn what kinds of systems can be built with LLMs:  
   document processing, personal assistants, content generation, backend automation, and multi-agent workflows.  
-- Go through the entire [OpenAI API](https://youtu.be/0pGxoubWI6s) documentation and Python SDK. Learn how to authenticate, send requests, handle responses, and work with structured outputs.  
 - Understand that [effective AI systems](https://youtu.be/tx5OapbK-8A) use as little AI as possible — combine deterministic logic with LLMs.  
 - Study the [core building blocks](https://youtu.be/T1Lowy1mnEg) of LLM-based systems: inputs, prompts, context windows, outputs, and feedback loops.  
 - Learn key software design patterns:  
