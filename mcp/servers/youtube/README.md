@@ -62,7 +62,6 @@ mcp dev server.py
 
 Test the server with the MCP Inspector tool. Connect > Tools > List Tools > get_transcript > Insert URL > Run Tool.
 
----
 
 ### Step 4: Proxy support (Optional)
 
