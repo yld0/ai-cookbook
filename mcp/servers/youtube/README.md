@@ -7,7 +7,7 @@ Why MCP? It’s perfect for developer-side automations you want to trigger immed
 ### Prerequisites
 
 - Python 3.12+
-- uv (see `https://docs.astral.sh/uv/`)
+- uv (see [https://docs.astral.sh/uv/](https://docs.astral.sh/uv/))
 - Claude Desktop or Claude Code
 
 Replace any absolute paths below with your own, for example: `<ABSOLUTE_PATH_TO_THIS_DIR>`.
