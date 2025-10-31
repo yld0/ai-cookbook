@@ -47,7 +47,12 @@ At the very top of `server.py`, add the script metadata so `uv run server.py` re
 This lets `uv` create an isolated environment and install only what this script needs.
 
 
-### Step 2: Run the dev server locally
+### Step 2: Create your server
+
+Create your `server.py`, implement any logic and register your tools. Use `stdio` for easy local servers without needing deployment.
+
+
+### Step 3: Run the dev server locally
 
 From this directory:
 
@@ -59,7 +64,7 @@ Test the server with the MCP Inspector tool. Connect > Tools > List Tools > get_
 
 ---
 
-### Step 3: Proxy support (Optional)
+### Step 4: Proxy support (Optional)
 
 The transcript service supports [Webshare](https://www.webshare.io/) proxies if you set these environment variables (otherwise it uses a direct connection):
 
@@ -69,7 +74,7 @@ WEBSHARE_PASSWORD=<your_password>
 ```
 
 
-### Step 4: Connect from Claude Desktop
+### Step 5: Connect from Claude Desktop
 
 Go to Claude Desktop > Settings > Developer > Edit Config > Edit §claude_desktop_config.json` and add:
 
@@ -91,7 +96,7 @@ Go to Claude Desktop > Settings > Developer > Edit Config > Edit §claude_deskto
 
 Restart Claude Desktop. You should see tools like `get_transcript` available.
 
-### Step 5: Connect from Claude Code (CLI)
+### Step 6: Connect from Claude Code (CLI)
 
 From anywhere:
 
