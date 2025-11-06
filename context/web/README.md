@@ -1,4 +1,4 @@
-# Adding Knowledge to AI Agents: From Internal Knowledge Bases to Web Search
+# Combining Internal Knowledge with Web Search
 
 This tutorial walks through a common pattern in AI agent development: enhancing your agents with knowledge from multiple sources. We'll start with an internal knowledge base (like a handbook or RAG pipeline) and then supplement it with web-based information retrieval.
 
