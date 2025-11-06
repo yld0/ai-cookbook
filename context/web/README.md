@@ -12,6 +12,10 @@ Most production AI agents need access to multiple knowledge sources:
 
 The key is building an agent that intelligently decides which knowledge source(s) to use based on the user's query, seamlessly combining internal and external information to provide comprehensive, well-cited answers.
 
+## Prerequisites
+
+We'll be building this agent using OpenAI's API. The requirements to follow along are available in the `requirements.txt` file in this folder.
+
 ## Agent Architecture
 
 The agent we'll build combines three knowledge sources into a unified system:
@@ -38,3 +42,4 @@ graph TB
     
     Answer --> User
 ```
+
