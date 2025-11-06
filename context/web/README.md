@@ -37,9 +37,4 @@ graph TB
     Synthesis --> Answer[Structured Answer<br/>with Citations]
     
     Answer --> User
-    
-    style Agent fill:#4A90E2,color:#fff
-    style Decision fill:#F5A623,color:#fff
-    style Synthesis fill:#7ED321,color:#fff
-    style Answer fill:#50E3C2,color:#000
 ```
